@@ -1,6 +1,7 @@
 const phoneNumber = '6285358316708';
-const message = 'Halo, saya tertarik membeli domain ini. Apakah masih tersedia?';
 const currentDomain = window.location.hostname;
+const domainAddress = `https://${currentDomain}`;
+const message = `Halo, saya tertarik membeli domain ini: ${domainAddress}. Apakah masih tersedia?`;
 
 const domainName = document.getElementById('domainName');
 const whatsappLink = document.getElementById('whatsappLink');
